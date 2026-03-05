@@ -82,3 +82,7 @@ SOUND_COMMAND="paplay /usr/share/sounds/freedesktop/stereo/bell.oga"
 ## License
 
 MIT
+
+## License
+
+MIT
