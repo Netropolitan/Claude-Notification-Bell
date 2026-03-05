@@ -1,0 +1,15 @@
+{
+  "description": "Plays a notification sound on a remote machine via SSH when Claude stops",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/stop-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
