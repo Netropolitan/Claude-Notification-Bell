@@ -1,0 +1,8 @@
+{
+  "name": "notification-bell-ssh",
+  "description": "Play a notification sound on a remote machine via SSH when Claude Code finishes a task. Useful when your terminal runs on a remote server but your speakers are on a different machine.",
+  "author": {
+    "name": "",
+    "email": ""
+  }
+}
