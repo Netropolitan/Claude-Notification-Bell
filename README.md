@@ -1,4 +1,4 @@
-# Notification Bell SSH
+# Claude Notification Bell
 
 A Claude Code plugin that plays a notification sound on a remote machine via SSH when Claude finishes a task.
 
@@ -8,15 +8,11 @@ If you run Claude Code on a remote server (via SSH, VS Code Remote, etc.) but yo
 
 ## Install
 
-```bash
-claude plugin add /path/to/notification-bell-ssh
-```
-
-Or clone this repo and point to it:
+Add this repo as a plugin marketplace, then install:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/notification-bell-ssh.git ~/.claude/plugins/notification-bell-ssh
-claude plugin add ~/.claude/plugins/notification-bell-ssh
+claude plugin marketplace add https://github.com/Netropolitan/Claude-Notification-Bell
+claude plugin install notification-bell-ssh
 ```
 
 ## Setup
